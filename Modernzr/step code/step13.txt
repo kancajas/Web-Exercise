@@ -1,0 +1,1 @@
+.cssreflections .cols{     -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(100, 100, 100, 0.1))); }  

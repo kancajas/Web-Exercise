@@ -1,0 +1,1 @@
+/* =custom text shadow */  .textshadow .cols h1, .textshadow #box1 h2{     text-shadow:2px 2px 1px #005B79; }  .textshadow #box1 h2{     text-shadow:2px 2px 1px #FFF;  }   

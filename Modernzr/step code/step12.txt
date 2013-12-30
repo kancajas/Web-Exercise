@@ -1,0 +1,1 @@
+.no-cssgradients.multiplebgs .cols {     background: #005B79 url(images/grad.png) top left repeat-x; }  

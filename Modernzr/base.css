@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #E5F2F5;
+	padding: 100px;
+	font-family: helvetica;
+}
+
+
+#box1{
+   border: 2px dashed #0099CC;
+	padding: 40px;
+	float: right;
+	width: 240px;
+}
+
+
+.cols{	
+	background: #0099CC;	
+	color: white;
+}
+
+
+.cols{
+	padding: 20px;
+	float: left;
+	width: 60%;
+	margin-top: 60px;
+}
+
+
+.cols h1{
+	background: url("images/arrow.png") 100% 100% no-repeat;
+}
+
+.cols h1, #box1 h2{
+	font-size: 300%;
+	margin: 0 0 40px 0;
+}
+
+p{
+	padding-bottom: 10px;
+}
+
+#box1 h2{
+	color: #0099CC;
+	font-size: 180%;
+}
+
+
+ul li{
+	list-style: none;
+	background: transparent url("images/arrow_small.png") top left no-repeat;
+	padding: 3px 0 6px 35px;
+	font-size: 90%;
+	color: #005B79;
+}
+
+
+/* Modernzr styles */
+

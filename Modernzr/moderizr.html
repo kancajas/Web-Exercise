@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" class="no-js">
+<head>
+<title>Using Modernzr by Jo York</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-gb" />
+<link rel="stylesheet" type="text/css" media="screen" href="base.css" />
+
+
+<script language="javascript" src="modernizr-1.5.min.js"></script>
+
+<script language="javascript">
+
+// Test for text-shadow support
+// Note: FF3.0 will false positive on this test :(
+Modernizr.addTest('textshadow',function(){ 
+    return document.createElement('div').style.textShadow === '';
+});
+</script>
+
+
+
+</head>
+<body>
+
+	
+	
+	<div class="cols">
+		
+		<h1>Gracefully degrading CSS with Modernizr</h1>
+		
+	<p>In this tutorial we're going to use Modernizr to test the browser's capability to deal with some CSS3 features that we have used on this page. Then use the classes that Modernizr adds to the body tag to apply the styles that the browser can use. This will give us complete control over how the page looks it each browser without needing to target specific browsers with nasty CSS hacks or external Style sheets.</p>
+	
+
+	</div>
+	
+	
+	
+	<div id="box1">
+		<h2>Features we're testing for:</h2>
+		<ul>
+			<li>Font Face</li>
+			<li>Border Image</li>
+			<li>Box Shadow</li>
+			<li>CSS Columns</li>
+			<li>CSS Gradients</li>
+			<li>CSS Reflections</li>
+			<li>CSS Rounded Corners</li>
+			<li>CSS Transforms</li>
+			<li>Multiple Backgrounds</li>
+			<li>Text Shadow</li>
+			
+			
+		</ul>
+	
+	</div> <!-- /div -->
+	
+
+</body>
+</html>

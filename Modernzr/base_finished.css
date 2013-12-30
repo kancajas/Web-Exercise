@@ -1,0 +1,163 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #E5F2F5;
+	padding: 100px;
+	font-family: helvetica;
+}
+
+
+#box1{
+   border: 2px dashed #0099CC;
+	padding: 40px;
+	float: right;
+	width: 240px;
+}
+
+
+.cols{	
+	background: #0099CC;	
+	color: white;
+}
+
+
+.cols{
+	padding: 20px;
+	float: left;
+	width: 60%;
+	margin-top: 60px;
+}
+
+
+.cols h1{
+	background: url("images/arrow.png") 100% 100% no-repeat;
+}
+
+.cols h1, #box1 h2{
+	font-size: 300%;
+	margin: 0 0 40px 0;
+}
+
+p{
+	padding-bottom: 10px;
+}
+
+#box1 h2{
+	color: #0099CC;
+	font-size: 180%;
+}
+
+
+ul li{
+	list-style: none;
+	background: transparent url("images/arrow_small.png") top left no-repeat;
+	padding: 3px 0 6px 35px;
+	font-size: 90%;
+	color: #005B79;
+}
+
+
+/* Modernzr styles */
+
+/* =fonts */
+
+@font-face{
+	   font-family: leftover; src: local('leftover'), url(fonts/LEFTOVER.TTF) format("truetype");
+}
+
+
+.fontface .cols h1{
+	font-family: leftover;
+	line-height: 0.9;
+	font-size: 400%;
+}
+
+
+.fontface #box1 h2{
+	font-family: leftover;
+	line-height: 0.9;
+	font-size: 300%;
+}
+
+
+
+
+/* =border image */
+
+.borderimage #box1{
+	padding: 0px;
+	width: 20%;
+	border-width: 80px;
+	-moz-border-image: url(images/border2.png) 108 round;  /* border image for firefox */
+	-webkit-border-image: url(images/border2.png) 108 round;  /* border image for Safari */
+}
+
+/* =box shadow */
+
+.boxshadow .cols{
+	-moz-box-shadow: 4px 4px 10px #FFF; /* box shadow for firefox */
+	-webkit-box-shadow: 4px 4px 10px #FFF;  /* box shadow for Safari */
+}
+
+.no-boxshadow .cols{
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+}
+
+/* =css columns */
+
+.csscolumns .cols p{
+	-moz-column-width: 10em;
+	-webkit-column-width: 10em;
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;
+}
+
+/* =css gradients */
+
+.cssgradients .cols {
+	background: -moz-linear-gradient(top,  #0099CC,  #005B79); /* cssgradients for firefox */
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #005B79),color-stop(1, #0099CC));  /* cssgradients for Safari */
+}
+
+.no-cssgradients.multiplebgs .cols {
+	background: #005B79 url(images/grad.png) top left repeat-x;
+}
+
+/* =css reflections */
+
+.cssreflections .cols{
+	-webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(100, 100, 100, 0.1)));
+}
+
+/* =rounded corners */
+
+.borderradius .cols{
+	-moz-border-radius: 5px; /* rounded corners for firefox */
+	-webkit-border-radius: 5px; /* rounded corners for Safari */
+}
+
+/* =CSS Transforms */
+
+.csstransforms #box1 {
+	transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+}
+
+
+/* =custom text shadow */
+
+
+.textshadow .cols h1, .textshadow #box1 h2{
+	text-shadow:2px 2px 1px #005B79;
+}
+
+.textshadow #box1 h2{
+	text-shadow:2px 2px 1px #FFF;
+}
+
+

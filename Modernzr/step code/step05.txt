@@ -1,0 +1,4 @@
+@font-face{ 
+   font-family: leftover; src: local('NAME_OF_FONT'), url(fonts/ 
+NAME_OF_FONT_FILE.TTF) format("truetype");
+} 

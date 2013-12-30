@@ -1,0 +1,1 @@
+/* =box shadow */  .boxshadow .cols{     -moz-box-shadow: 4px 4px 10px #FFF; /* box shadow for Firefox */     -webkit-box-shadow: 4px 4px 10px #FFF;  /* box shadow for Safari */ }  

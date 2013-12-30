@@ -1,0 +1,1 @@
+.no-boxshadow .cols{     border-right: 2px solid #FFF;     border-bottom: 2px solid #FFF; }  

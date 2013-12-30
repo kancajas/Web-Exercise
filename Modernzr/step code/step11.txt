@@ -1,0 +1,1 @@
+/* =css gradients */  .cssgradients .cols { background: -moz-linear-gradient(top,  #0099CC,  #005B79); /* cssgradients for firefox */ background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #005B79),color-stop(1, #0099CC));  /* cssgradients for Safari */ }  

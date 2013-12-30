@@ -1,0 +1,1 @@
+.fontface .cols h1{     font-family:NAME_OF_FONT;     line-height: 0.9;     font-size: 400%; } .fontface #box1 h2{    font-family: NAME_OF_FONT;     line-height: 0.9;     font-size: 300%; } 

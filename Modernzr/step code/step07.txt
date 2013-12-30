@@ -1,0 +1,1 @@
+/* =border image */  .borderimage #box1{     padding: 0px;     width: 20%;     border-width: 80px;     -moz-border-image: url(images/border2.png) 108 round;  /* border image for firefox */     -webkit-border-image: url(images/border2.png) 108 round;  /* border image for Safari */ }  
